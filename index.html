@@ -123,7 +123,7 @@
 								</section>
 							</div>
 							<ul class="actions">
-								<li><a href="#" class="button">Learn more</a></li>
+								<li><a href="#three" class="button scrolly">Learn more</a></li>
 							</ul>
 						</div>
 					</section>
@@ -135,7 +135,7 @@
 							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<form method="post" action="https://script.google.com/macros/s/AKfycbz5TktoqjPcMc2qyzFNdgVu1nV004IiHKgYsNkkV1w0QMAK7l4/exec">
 										<div class="field half first">
 											<label for="name">Name</label>
 											<input type="text" name="name" id="name" />
@@ -186,7 +186,11 @@
 					</section>
 
 			</div>
-
+		<!-- Thank you message -->
+		<div style="display:none;" id="thankyou_message">
+			<h2><em>Thanks</em> for contacting me
+				I will get back to you soon </h2>
+		</div>
 		<!-- Footer -->
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
@@ -204,6 +208,8 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<!--[Email]-->
+			<script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 	</body>
 </html>
