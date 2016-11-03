@@ -1640,7 +1640,7 @@
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: Open Sans, Arial, Helvetica, sans-serif;
+		font-family: Avenir, Open Sans, Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -1698,15 +1698,8 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h5, h6 {
+	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: bold;
-		line-height: 1.5;
-		margin: 0 0 0.5em 0;
-	}
-
-	h4 {
-		color: #f2b632;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
