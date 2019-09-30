@@ -1622,7 +1622,7 @@
 	}
 
 	body {
-		background: #312450;
+		background: #ffffff;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1639,7 +1639,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #1D2120;
 		font-family: Avenir, Open Sans, Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -1682,11 +1682,11 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff;
+			color: #1D2120;
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #1D2120;
 		font-weight: bold;
 	}
 
@@ -1699,7 +1699,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #1D2120;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
