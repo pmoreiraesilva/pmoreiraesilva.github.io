@@ -106,7 +106,7 @@ img.rounded {
 }
 
 .slides {
-  color: #fff;
+  color: #202020;
   fill: #fff;
   font-family: "Roboto", sans-serif;
   -webkit-hyphens: none;
@@ -245,7 +245,7 @@ h6,
 p,
 .p,
 blockquote {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.6363636364;
   margin-bottom: 30px;
   font-weight: 300;
@@ -446,7 +446,7 @@ small .small {
   padding: 12px;
   border-radius: 25px;
   z-index: 999;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(32, 32, 32, 1);
   line-height: 1;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05);
   cursor: pointer;
@@ -865,7 +865,7 @@ p.uppercase, .p.uppercase,
   display: inline-block;
   width: 6px;
   height: 6px;
-  background: #fff;
+  background: #202020;
   border-radius: 50%;
   opacity: 0.5;
   transition: 0.25s;
@@ -1266,7 +1266,7 @@ p.uppercase, .p.uppercase,
   position: fixed;
   width: 100%;
   height: 100%;
-  background: #202020;
+  background: #ffffff;
   color: #fff;
   z-index: 10;
   overflow: hidden;
@@ -1313,13 +1313,13 @@ p.uppercase, .p.uppercase,
   -webkit-overflow-scrolling: touch;
 }
 
-/* Background Fade */
+/* Background Fade 
 .fade .content {
   background: rgba(0, 0, 0, 0.6);
 }
 
 /*default*/
-.fade-1 .content {
+/*.fade-1 .content {
   background: rgba(0, 0, 0, 0.1);
 }
 
@@ -1358,6 +1358,7 @@ p.uppercase, .p.uppercase,
 .whiteSlide[class*="fade"] .content {
   background: rgba(255, 255, 255, 0.85);
 }
+*/
 
 .container {
   display: table;
